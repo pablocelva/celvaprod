@@ -2,6 +2,7 @@ body {
   font-family: "Raleway", sans-serif;
 }
 
+
 /* Hero Section */
 
 #Hero-Section {
@@ -20,11 +21,44 @@ body {
   background-position: center;
 }
 
+#Mis-trabajos {
+  background-color: cadetblue;
+}
+
 /* Contacto */
+
+.cv-img img {
+  border-radius: 50%;
+  width: 100%;
+  max-width: 600px;
+  min-width: 200px;
+  /* margin: auto; */
+}
 
 #Contacto form label {
   font-weight: 700;
   color: #373a3c;
+}
+
+#Contacto {
+  width: 70%;
+}
+
+.btn {
+  background-color: cadetblue;
+  color: aliceblue;
+}
+
+/* .iconos {
+  padding: 5%
+} */
+
+i {
+  color: cadetblue;
+}
+
+i:hover {
+  color: aliceblue;
 }
 
 @media (max-width: 768px) {
